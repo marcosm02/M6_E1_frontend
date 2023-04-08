@@ -39,8 +39,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     :root {
-        --color-primary: #6164DC;
-        --color-primary-hover: #4A4CA8;
+        --color-primary: #B81FEB;
+        --color-primary-hover: #5C2E6B;
 
         --color-grey-4: #121214;
         --color-grey-3: #212529;
