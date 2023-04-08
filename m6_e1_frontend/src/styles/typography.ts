@@ -30,7 +30,7 @@ export const StyledText = styled(BaseText)<iStyledTextProps>`
       `;
     } else if (textType === "label") {
       return css`
-        font-size: 0.609rem;
+        font-size: 0.7rem;
         font-weight: 400;
       `;
     }
