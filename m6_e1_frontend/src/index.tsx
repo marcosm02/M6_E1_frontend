@@ -7,6 +7,7 @@ import { GlobalStyle } from "./styles/global";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { UserProvider } from "./contexts/UserContext";
+import { ContactProvider } from "./contexts/ContactsContext";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -17,7 +18,9 @@ root.render(
       <GlobalStyle />
       <ToastContainer theme={"dark"} autoClose={1500} />
       <UserProvider>
-        <App />
+        <ContactProvider>
+          <App />
+        </ContactProvider>
       </UserProvider>
     </BrowserRouter>
   </React.StrictMode>
